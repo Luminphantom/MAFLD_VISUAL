@@ -28,7 +28,8 @@ Based on health checkup data from the MAFLD risk people, this study utilizes dat
 <h2>Team Member</h2>
 Principal investigator: Zhuoqing Wu
 
-Project Developer: Yunchao Zheng
+
+Project developer: Yunchao Zheng
 
 Research supervisor: Chonghui Guo、Jingfeng Chen、Suying Ding
 '''
