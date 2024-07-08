@@ -24,6 +24,13 @@ Based on health checkup data from the MAFLD risk people, this study utilizes dat
 (B)Temporal Association Rule Evolution Analysis Module.
 
 (C)Outcome Prediction Model.
+
+<h2>Team Member</h2>
+Principal investigator: Zhuoqing Wu
+
+Project Developer: Yunchao Zheng
+
+Research supervisor: Chonghui Guo、Jingfeng Chen、Suying Ding
 '''
 
 # 公用
