@@ -50,7 +50,7 @@ def page():
     st.markdown(mafld_data.page_2_patient_data_title)
     col_l, col_r = st.columns([1, 1])
     c1 = ['BMI', 'WC', 'DBP', 'ALT', 'SBP', 'GGT', 'ALP', 'SUA', 'A1c', 'PLT']
-    c2 = ['TG', 'HDL', 'FBG', 'HbA1C', 'TC', 'WBC', 'LDL', 'GFR', 'CREA', 'MAFLD']
+    c2 = ['TG', 'HDL', 'FBG', 'HbA1c', 'TC', 'WBC', 'LDL', 'GFR', 'CREA', 'MAFLD']
     with col_l:
         st.markdown('### ' + str(year0))
         st.dataframe(data0[c1], use_container_width=True)
