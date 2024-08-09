@@ -67,14 +67,14 @@ def page():
     # 预测结果
     st.markdown('---')
     st.markdown(mafld_data.page_2_result_title)
-    result_str = str(mafld_result) + '  (Illness)' if mafld_result else '  (Health)'
+    result_str = str(mafld_result) + '  (MAFLD)' if mafld_result else '  (Health)'
     st.markdown(str(year0)+'->'+str(year)+' Temporal association rules' +' extracted from '+ ' physical checkup user: '+str(patient_ID))
     st.dataframe(rule.dropna(axis=1))
     st.markdown('#### **MAFLD** Prediction Result' )
     if not mafld_result:
         st.markdown('<h5 style="background-color:MediumSeaGreen;">0 (Health)</h5>', unsafe_allow_html=True)
     else:
-        st.markdown('<h5 style="background-color:Tomato;">1 (Illness)</h5>', unsafe_allow_html=True)
+        st.markdown('<h5 style="background-color:Tomato;">1 (MAFLD)</h5>', unsafe_allow_html=True)
     st.markdown(mafld_data.page_2_result_content)
 
     # 模型可解释性分析
