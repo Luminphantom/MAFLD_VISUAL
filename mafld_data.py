@@ -33,12 +33,12 @@ analysis_pattern_selectbox_title = 'Analysis Mode'
 analysis_pattern_selectbox_options = ['horizontal', 'vertical']
 
 # 页 1
-page_1_main_title = '## Temporal Association Rule Evolution Analysis Module'
+page_1_main_title = '## Temporal Association Rules Evolution Analysis Module'
 page_1_second_title = ''
 page_1_introduction = '''
-The current module is dedicated to analyzing the upward, stable, and downward trends of MAFLD outcomes in the research subjects.
+The current module is dedicated to analyzing the upward(progression), stable(stability), and downward(revesal) trends of MAFLD outcomes in the research subjects.
 
-① The temporal association rule data is transformed into tuple form to construct an evolutionary network graph.
+① The temporal association rules data is transformed into tuple form to construct an evolutionary network graph.
 ② An in-depth horizontal and vertical excavation of the constructed evolutionary network graph is conducted.
 ③ The module summarizes the differences and evolutionary patterns between MAFLD outcomes and temporal association rules across the same and different time intervals. <p>
 **horizontal** mode focuses on the trend changes of all indicators in the same year; **vertical** mode focuses on how indicators change over the years in the same trend
@@ -48,7 +48,7 @@ page_1_year_selectbox_options = ['2017->2018', '2018->2019', '2019->2020']
 page_1_trend_selectbox_title = 'Trends in MAFLD characteristics'
 page_1_trend_eng_map_dict = {' upward': 'up', ' stable': 'eq', ' downward': 'dw'}
 page_1_trend_selectbox_options = page_1_trend_eng_map_dict.keys()
-page_1_ts_rule_explain_title = '### Temporal Association Rule Plot'
+page_1_ts_rule_explain_title = '### Temporal Association Rules Plot'
 page_1_ts_rule_explain_content = '''
 '''
 page_1_ts_conclusion = '''
