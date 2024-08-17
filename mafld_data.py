@@ -25,13 +25,12 @@ Based on health checkup data from the MAFLD risk people, this study utilizes dat
 
 (C)Outcome Prediction Model.
 
-<h2>Team Member</h2>
-Principal investigator: Zhuoqing Wu
+%<h2>Team Member</h2>
+%Principal investigator: Zhuoqing Wu
 
+%Project developer: Yunchao Zheng
 
-Project developer: Yunchao Zheng
-
-Research supervisor: Chonghui Guo、Jingfeng Chen、Suying Ding
+%Research supervisor: Chonghui Guo、Jingfeng Chen、Suying Ding
 '''
 
 # 公用
