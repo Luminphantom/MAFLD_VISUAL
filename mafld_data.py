@@ -2,8 +2,8 @@ import streamlit as st
 
 # 网站信息
 website_icon = '💠'
-website_title = 'ISMAFLDP Decision Support System'
-sidebar_website_title = '# 💠️ ISMAFLDP Decision Support System'
+website_title = 'IPSMAFLD Decision Support System'
+sidebar_website_title = '# 💠️ IPSMAFLD Decision Support System'
 sidebar_website_introduction = '''---
 <h2>Introduction to MAFLD</h2><p>Nonalcoholic fatty liver disease (NAFLD) is a metabolic stress-induced liver injury closely associated with insulin resistance and genetic susceptibility. 
 
